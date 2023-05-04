@@ -28,8 +28,8 @@ body{
 }
 
 section{
-  min-height: 60vh;
-  padding: 10rem 5% 2rem;
+  min-height: 80vh;
+  padding: 10rem 6% 2rem;
 }
 
 span{
@@ -47,6 +47,7 @@ span{
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  border: 1px solid white;
  
 }
 
@@ -80,6 +81,7 @@ span{
   justify-content: space-around;
   align-items: center;
   margin-top: 20px;
+
 }
 
 #home-content h3{
@@ -97,8 +99,19 @@ span{
   line-height: 1.3;;
 }
 
+#home-content p{
+  font-size: 1.6rem;
+ 
+}
+
 .home-image img{
-  width: 35vw;
+  width: 22vw;
+  transition: .5s ease;
+  border-radius: 10px;
+}
+
+.home-image img:hover{
+  transform: scale(1.1);
 }
 
 .social-media a{
@@ -287,4 +300,39 @@ span{
 .portfolio-layer a i{
   font-size: 3rem;
   color: var(--second-bg-color);
+}
+
+.contact-container{
+
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.contact-container .right-contact{
+  display: flex;
+  flex-direction: column;
+
+  align-items: start;
+}
+.right-contact>div:nth-child(1) i,
+.right-contact>div:nth-child(2) i,
+.right-contact>div:nth-child(3) i{
+  font-size: 3rem;
+  
+}
+.right-contact>div{
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  justify-content: center;
+}
+.right-contact span{
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.right-contact .icon{
+  font-size: 5rem;
+  margin-top: 1.5rem;
 }
