@@ -19,10 +19,10 @@
 //   }
 // }
 
-GitHubCalendar(".calendar", "clrsurya11");
+GitHubCalendar(".calendar", "kumarprem66");
 // or enable responsive functionality
-GitHubCalendar(".calendar", "clrsurya11", { responsive: true });
+GitHubCalendar(".calendar", "kumarprem66", { responsive: true });
 
 function resume(){
-  window.open("https://drive.google.com/file/d/1kBdAeE0BNjlNOoXdLf-q9CGft1Oke0v0/view?usp=sharing", "_blank");
+  window.open("https://drive.google.com/file/d/1JBlDoXxAZuX2nRA-VwA2UzlJNyCsH-Na/view?usp=sharing", "_blank");
 };

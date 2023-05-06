@@ -22,10 +22,11 @@
             <a href="#skills" class="nav-link skills" >Skills</a >
             <a href="#projects" class="nav-link projects" >Projects</a >
             <a href="#contact" class="nav-link contact" >Contact</a >
-            <a href="#contact" class="nav-link resume" >Resume</a >
+            <!-- <a href="#contact" class="nav-link resume" >Resume</a > -->
+            <a id="resume-button-2" onclick="resume()" id="resume-link-2" class="nav-link resume" href="./Image/Prem-Kumar-Resume.pdf" download="Prem_Kumar_Resume" target="_blank">Resume</a>
         </nav>    
                
-         <!-- <li><button id="resume-button-1" onclick="resume()"><a id="resume-link-1" class="nav-link resume" href="./Image/Suryakant-Singh-Resume.pdf" download="Suryakant_Singh_Resume" target="_blank">Resume</a></button></li>
+         <!-- <li><button id="resume-button-1" onclick="resume()"><a id="resume-link-1" class="nav-link resume" href="./Image/Prem-Kumar-Resume.pdf" download="Prem_Kumar_Resume" target="_blank">Resume</a></button></li>
 
          <a href="javascript:void(0);" class="icon" onclick="myfunction()"> ☰ </a> -->
     </div>
@@ -38,9 +39,10 @@
             <h1 id="user-detail-name" > Prem kumar</h1>
             <h3 id="user-detail-intro" >And I'm a <span>Java Developer</span></h3>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-                reprehenderit ipsam maiores facere neque amet quo nihil reiciendis
-                eligendi vitae.
+                Highly motivated and enthusiastic developer coming with a good understanding of core JAVA, Hibernate and Sprint Boot, eager to continue
+                learning and expanding the skill set. Confident in the ability to
+                contribute to any development team, and excited to apply the
+                skills into the real-world projects.
               </p>
             <div class="social-media">
                 <a href="#"><i class='bx bxl-linkedin'></i></a>
@@ -49,7 +51,7 @@
                 <a href="#"><i class='bx bxl-facebook-square'></i></a>
             </div>
 
-            <button id="resume-button-2" onclick="resume()" id="resume-link-2" class="nav-link resume" href="./Image/Suryakant-Singh-Resume.pdf" download="Suryakant_Singh_Resume" target="_blank">Download CV</button>
+            <button id="resume-button-2" onclick="resume()" id="resume-link-2" class="nav-link resume" href="./Image/Prem-Kumar-Resume.pdf" download="Prem_Kumar_Resume" target="_blank">Download Resume</button>
                      
         </div>
         <div class="home-image">  
@@ -58,7 +60,7 @@
         
     </section>
 
-    <section id="about" class="about section">
+    <!-- <section id="about" class="about section">
         
         <div class="about-img">
             <img width="40%" src="./profile_photo5.png" alt="">
@@ -77,43 +79,97 @@
        </div>
        
     </div>       
-    </section>
+    </section> -->
+
+    <section class="about" id="about">
+        <!-- <div class="about-img"> -->
+        <h3 class="heading">About <span>Me</span></h3>
+        <!-- </div> -->
+        <div id="about-content">
+          
+            <div class="left-section">
+
+                <p>
+                    Highly motivated and enthusiastic developer coming with a good understanding of core JAVA, Hibernate and Sprint Boot, eager to continue
+                    learning and expanding the skill set. Confident in the ability to
+                    contribute to any development team, and excited to apply the
+                    skills into the real-world projects.
+                    </p>
+            
+                    <div class="icon">
+                        <a href="https://github.com/kumarprem66"><i class='bx bxl-github'></i></a>
+                <!-- <i class='bx bxl-github'></i> -->
+               <a href="https://www.linkedin.com/in/prem-kumar-a160b2272/"><i class='bx bxl-linkedin-square'></i></a> 
+                    </div>
+            </div>
+        
+  
+            <div class="right-section">
+            <div>
+                <h2>1200+</h2>
+                <p>Hrs Coding</p>
+            </div>
+            <div>
+                <h2>1000+</h2>
+                <p>DSA Problem</p>
+            </div>
+            <div>
+                <h2>100+</h2>
+                <p>Hrs Soft Skills</p>
+            </div>
+            <div>
+                <h2>20+</h2>
+                <p>Mini Projects</p> 
+            </div>
+            <div>
+                <h2>3+</h2>
+                <p>Major Projects</p>
+            </div>
+           
+           
+            </div>
+
+        </div>
+  
+      </section>
+   
+
     <section id="skills" class="skil">
         <h2 id="heading">My <span>Skills</span></h2>
         <div class="skills-container">
             <div class="skills-card" id="leaf">
-                <img  width="100px" class="skills-card-img" src="./Image/Html_Logo.png" alt="html"> 
+                <img  width="50px" class="skills-card-img" src="./Image/Html_Logo.png" alt="html"> 
                 <h4  class="skills-card-name">HTML</h4>
             </div>
             <div class="skills-card" id="leafr">
-                <img width="100px" class="skills-card-img" src="./Image/CSS_Logo.png" alt="css"> 
+                <img width="50px" class="skills-card-img" src="./Image/CSS_Logo.png" alt="css"> 
                 <h4  class="skills-card-name">CSS</h4></div>
             <div class="skills-card" id="leaf">
-                <img width="100px" class="skills-card-img" src="./Image/JS_Logo.png" alt="js">
+                <img width="50px" class="skills-card-img" src="./Image/JS_Logo.png" alt="js">
                 <h4  class="skills-card-name">JAVASCRIPT</h4>
             </div>
             <div class="skills-card" id="leafr">
-                <img width="100px" class="skills-card-img" src="./Image/Java_logo.png" alt="java">
+                <img width="50px" class="skills-card-img" src="./Image/Java_logo.png" alt="java">
                  <h4  class="skills-card-name">JAVA</h4>
             </div>
             <div class="skills-card" id="leaf">
-                <img width="100px" class="skills-card-img" src="./Image/MySql_Logo.png" alt="SQL">
+                <img width="50px" class="skills-card-img" src="./Image/MySql_Logo.png" alt="SQL">
                  <h4  class="skills-card-name">MySQL</h4>
                 </div>
             <div class="skills-card" id="leafr">
-                <img width="100px" class="skills-card-img" src="./Image/Hibernate_Logo.png" alt="hibernate"> 
+                <img width="50px" class="skills-card-img" src="./Image/Hibernate_Logo.png" alt="hibernate"> 
                 <h4  class="skills-card-name">HIBERNET</h4>
             </div>
             <div class="skills-card" id="leaf">
-                <img width="100px" class="skills-card-img" src="./Image/Maven_Logo.png" alt="maven"> 
+                <img width="50px" class="skills-card-img" src="./Image/Maven_Logo.png" alt="maven"> 
                 <h4  class="skills-card-name">MAVEN</h4>
             </div>
             <div class="skills-card" id="leaf">
-                <img width="100px" class="skills-card-img" src="./Image/Spring_Logo.png" alt="spring"> 
+                <img width="50px" class="skills-card-img" src="./Image/Spring_Logo.png" alt="spring"> 
                 <h4  class="skills-card-name">SPRING</h4>
             </div>
             <div class="skills-card" id="leafr">
-                <img width="100px" class="skills-card-img" src="./Image/SpringBoot_Logo.png " alt="spring-boot"> 
+                <img width="50px" class="skills-card-img" src="./Image/SpringBoot_Logo.png " alt="spring-boot"> 
                 <h4  class="skills-card-name">SPRINGBOOT</h4>
             </div>
         </div>
@@ -124,58 +180,61 @@
         <h2 id="heading">Latest <span>Projects</span></h2>
 
         <div class="portfolio-container">
+           
             <div class="project-card" id="leafpr">
-                <img width="70%" id="pimgr" src="./Image/MarketingYard_Logo.png" alt="mk-img">
+                <img width="70%" id="pimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkrFC0RdVK2rh_FESIrQH3LDrQntEJO76NRA&usqp=CAU" alt="mailchimp-img">
                 <div class="portfolio-layer">
-                    <h3  class="project-title">Marketing Yard</h3>
-                    <p  class="project-description">A clone of Engagebay Web Application which is a marketing based web application designed to
-                        help businesses to acquire, engage, nurture, and close
-                        leads
+                    <h3 class="project-title">Human Resource Management System</h3>
+                    <p  class="project-description">Human Resource Management System  is a Maven project created using Java and Hibernate framework.In this Application I have done number of JPQL query for storing and manipulating the data into the mysql database.
                     </p>
-                    <p class="project-tech-stack">HTML | CSS | JavaScript</p>
-                    <div class="project-icon">
-                        <a id="tit" class="project-github-link" href="https://github.com/clrsurya11/shiny-things-8909.git" target="_blank"><i class='bx bxl-github'></i></a>
-                        <a id="tit" class="project-deployed-link"href="https://astonishing-gnome-438ac5.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
-                     </div>
-                </div> 
-            </div>
-            <div class="project-card" id="leafpr">
-                <img width="70%" id="pimg" src="./Image/MailChimp_Logo.png" alt="mailchimp-img">
-                <div class="portfolio-layer">
-                    <h3 class="project-title">Mailchimp</h3>
-                    <p  class="project-description">A marketing based web application which provides
-                        complete emailing based support to the startups.
-                    </p>
-                    <p class="project-tech-stack">HTML | CSS | JavaScript</p>
+                    <p class="project-tech-stack">JAVA | MySQL | Hibernate | Maven</p>
                     <div class="project-icon">
                         <a id="tit" class="project-github-link" href="https://github.com/clrsurya11/dandy-nation-9128.git" target="_blank"><i class='bx bxl-github'></i></a>
                         <a id="tit" class="project-deployed-link"href="https://chimerical-lollipop-25cd16.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
                      </div>
                 </div> 
             </div>
+           
             <div class="project-card" id="leafpr">
-                <img width="70%" id="pimgr" src="./Image/PayTric.png" alt="paytric-img">
+                <img width="70%" id="pimgr" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ69A9DAz2udR8wNqEyrGlawx8tOXO1oz5LBA&usqp=CAU" alt="paytric-img">
                 <div class="portfolio-layer">
-                    <h3  class="project-title">PAYTRIC</h3>
-                    <p  class="project-description"> Electricity Bill Payment System</p>
-                    <p class="project-tech-stack">JAVA | MySQL</p>
-                    <div class="project-icon">
-                        <a id="tit" class="project-github-link" href="https://github.com/alokrai0607/-embarrassed-pig-3561" target="_blank"><i class='bx bxl-github'></i></a>
-                        <a id="tit" class="project-deployed-link"href="https://sparkling-macaron-85cc95.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div> 
-            </div>
-            <div class="project-card" id="leafpr">
-                <img width="70%" id="pimgr" src="./Image/PayTric.png" alt="paytric-img">
-                <div class="portfolio-layer">
-                    <h3  class="project-title">PAYTRIC</h3>
-                    <p  class="project-description"> Electricity Bill Payment System</p>
-                    <p class="project-tech-stack">JAVA | MySQL</p>
+                    <h3  class="project-title">Student Managent System</h3>
+                    <p  class="project-description"> This is a console based java project that helps administration of
+                        the Institute to register the student in any available course and
+                        its batches.This is created using core java and storing data into the file using serialization</p>
+                    <p class="project-tech-stack">JAVA | Serialization </p>
                     <div class="project-icon">
                        <a id="tit" class="project-github-link" href="https://github.com/alokrai0607/-embarrassed-pig-3561" target="_blank"><i class='bx bxl-github'></i></a>
                        <a id="tit" class="project-deployed-link"href="https://sparkling-macaron-85cc95.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
                     </div>
                     
+                </div> 
+            </div>
+            <div class="project-card" id="leafpr">
+                <img width="70%" id="pimgr" src="./Image/photoshop.png" alt="mk-img">
+                <div class="portfolio-layer">
+                    <h3  class="project-title">PostalShop</h3>
+                    <p  class="project-description">This is a clone website of AeroPostal which is a american e-commerse website. We have used HTML,CSS,JAVASCRIPT and API to develop this website.
+                    </p>
+                    <p class="project-tech-stack">HTML | CSS | JavaScript | API</p>
+                    <div class="project-icon">
+                        <a id="tit" class="project-github-link" href="https://github.com/clrsurya11/shiny-things-8909.git" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a id="tit" class="project-deployed-link"href="https://astonishing-gnome-438ac5.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+                     </div>
+                </div> 
+            </div>
+
+            <div class="project-card" id="leafpr">
+                <img width="70%" id="pimgr" src="./Image/blue-wood2.jpg" alt="paytric-img">
+                <div class="portfolio-layer">
+                    <h3  class="project-title">BLUE-WOOD</h3>
+                    <p  class="project-description">This a clone of IKEA which is an e-commerce website which sells furniture and home
+                        appliances.This project is created using pure HTML, CSS AND JavaScript</p>
+                    <p class="project-tech-stack">JavaScript | HTML5 | CSS3</p>
+                    <div class="project-icon">
+                        <a id="tit" class="project-github-link" href="https://github.com/alokrai0607/-embarrassed-pig-3561" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a id="tit" class="project-deployed-link"href="https://sparkling-macaron-85cc95.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+                    </div>
                 </div> 
             </div>
         </div>
@@ -186,7 +245,7 @@
         
     <div id="git-stats"> 
         <p id="heading">GitHub Stats</p>
-        <div>
+        
         <div class="git-stat-div react-activity-calendar"><script
             src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
             ></script>
@@ -200,19 +259,20 @@
             <div style="background-color: white; padding: 10px; border-radius: 9px; width: 100%;height: 100%;" class="calendar react-activity-calenda">
             Loading the data just for you.
             </div>
+        </div>
     </div>
 
-    <section id="gitst">
+    <div id="gitst">
 
-    <img width="36%" id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=clrsurya11&theme=radical" alt="">
-    
-    <img width="15%" id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=clrsurya11&&theme=radical" alt="">
-    
-    <img width="34%" id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=clrsurya11&show_icons=true&theme=radical" alt="">
-    <br>
+        <img width="36%" id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=kumarprem66&theme=radical" alt="">
+        
+        <img width="25%" id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kumarprem66&&theme=radical" alt="">
+        
+        <img width="38%" id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=kumarprem66&show_icons=true&theme=radical" alt="">
+        <br>
 
     
-    </section>
+    </div>
   
 
 
@@ -228,8 +288,9 @@
             <div> <i class='bx bx-current-location'></i><span>Jehanabad,Bihar</span></div>
     
             <div class="icon">
-                <i class='bx bxl-github'></i>
-                <i class='bx bxl-linkedin-square'></i>
+                <a href="https://github.com/kumarprem66"><i class='bx bxl-github'></i></a>
+                <!-- <i class='bx bxl-github'></i> -->
+               <a href="https://www.linkedin.com/in/prem-kumar-a160b2272/"><i class='bx bxl-linkedin-square'></i></a> 
             </div>
             </div>
         </div>
@@ -253,7 +314,7 @@
                 <div id="contact-not-git-container">
                     <a id="contact-linkedin" target="_blank" href="https://www.linkedin.com/in/clrsurya11/"> Linkedin</a>
                     <span id="contact-phone"><i class="fa-brands fa-whatsapp" ></i>✆ 7744837409</span>
-                    <span id="contact-email" href="#contact-mail"><i class="fa-solid fa-envelope"></i>✉ singhsuryakant9011@gmail.com</span>
+                    <span id="contact-email" href="#contact-mail"><i class="fa-solid fa-envelope"></i>✉ premstart10@gmail.com</span>
                 </div>
             </div>
             <div id="contact-git">
@@ -271,7 +332,8 @@
 <footer>
     <div id="top">
         <a href="#home">
-        <img width="100px" src="./Images/logo.avif" alt="">
+        <!-- <img width="100px" src="./Images/" alt=""> -->
+        <i class='bx bxs-up-arrow-circle'></i>
      </a>
     </div>
 </footer>
