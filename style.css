@@ -433,3 +433,166 @@ span{
 
 
 }
+
+
+@media screen and (max-width: 950px){
+
+  section{
+  
+    padding: 7rem 3% 4rem;
+  }
+
+
+  
+
+
+   /* #home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  
+  }
+
+  .header{
+    padding: 2rem 3%;
+  }  */
+
+}
+
+@media screen and (max-width: 856px){
+
+  #menu-icon{
+    display: block;
+  }
+
+  .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem 3%;
+    background: var(--bg-color);
+    border-top: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    display: none;
+  }
+
+  .navbar.active{
+    display: block;
+    color: var(--main-color);
+  }
+  .navbar a{
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+  }
+
+  .home{
+    flex-direction: column;
+  }
+
+  .home-content h3{
+    font-size: 5rem;
+  } 
+
+  .home-image img{
+    width: 40vw;
+    margin-top: 4rem;
+  } 
+
+  
+  .skills-container{
+   
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+   
+  }
+
+}
+
+@media screen and (max-width: 800px){
+  
+
+  #about-content{
+  
+    grid-template-columns: 1fr;
+
+  
+    
+  }
+
+  .contact-container{
+
+    grid-template-columns: 1fr;
+    /* border: 1px solid red; */
+    align-items: center;
+  
+  }
+
+  .contact-container .left-contact{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+  }
+
+  
+
+  .contact-container .right-contact{
+  
+    align-items: center;
+  }
+
+  #gitst{
+  
+    margin: 0rem 6rem 2rem 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #gitst img{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+ 
+
+}
+
+@media screen and (max-width: 650px){
+
+  .portfolio-container .project-card{
+    
+    grid-template-columns: 1fr;
+   
+   
+  }
+
+  .skills-container{
+   
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+   
+  }
+}
+
+@media screen and (max-width: 430px){
+
+
+  .skills-container{
+   
+    grid-template-columns: 1fr;
+    gap: 2rem;
+   
+  }
+
+  .contact-container .left-contact img{
+  
+   width: 300px;
+   
+  }
+}
