@@ -89,6 +89,13 @@ span{
   font-weight: 700;
 }
 
+#home-content button{
+  cursor: pointer;
+}
+
+#resume-button-1{
+  cursor: pointer;
+}
 #home-content h3:nth-of-type(2){
   margin-bottom: 2rem;
 }
@@ -135,7 +142,7 @@ span{
   box-shadow: 0 0 1rem var(--main-color);
 }
 
-#resume-button-2{
+#resume-button-1{
   display: inline-block;
   padding: 1rem 2.8rem;
   background: var(--main-color);
