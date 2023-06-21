@@ -24,7 +24,7 @@ GitHubCalendar(".calendar", "kumarprem66");
 GitHubCalendar(".calendar", "kumarprem66", { responsive: true });
 
 function resume(){
-  window.open("https://drive.google.com/file/d/1JBlDoXxAZuX2nRA-VwA2UzlJNyCsH-Na/view?usp=sharing", "_blank");
+  window.open("https://drive.google.com/file/d/1K6S3eQcKb6r0ZXgn8C892fVGuebKg35-/view?usp=sharing", "_blank");
 };
 
 
