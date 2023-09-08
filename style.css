@@ -269,6 +269,12 @@ span{
   transition: .5s ease;
 }
 
+.skills-container .djnago{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .skills-container .skills-card:hover{
   border-color: var(--main-color);
   transform: scale(1.02);
