@@ -27,7 +27,22 @@ function resume(){
   window.open("https://drive.google.com/file/d/1GWcEvoHK1-wVxtWtrXBveaJj7IRm62YB/view?usp=sharing", "_blank");
 };
 
+// document.getElementById('resume-link-1').addEventListener("click", () => {
+//   // console.log("OPENinig.....")
+//  // window.location.assign("https://drive.google.com/file/d/1vgOhH9mlzxn8doT0WA3ZkXD8IDcvi3Ed/view?usp=drive_link", "_blank");
+//   window.open(
+//       (href= "https://drive.google.com/file/d/1GWcEvoHK1-wVxtWtrXBveaJj7IRm62YB/view?usp=sharing")
+//   );
+// })
 
+// document.getElementById('resume-link-2').addEventListener("click", () => {
+//   alert("download")
+//   // console.log("OPENinig.....")
+//   //window.location.assign("https://drive.google.com/file/d/1vgOhH9mlzxn8doT0WA3ZkXD8IDcvi3Ed/view?usp=drive_link", "_blank");
+//   window.open(
+//       (href= "https://drive.google.com/file/d/1GWcEvoHK1-wVxtWtrXBveaJj7IRm62YB/view?usp=sharing")
+//   );
+// })
 // let header = document.querySelector("#nav-menu");
 // header.classList.toggle('sticky',window.scrollY>100)
 
