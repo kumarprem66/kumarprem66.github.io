@@ -287,6 +287,9 @@ span{
 #skills h2,#tools h2{
   margin-bottom: 5rem;
 }
+#tools{
+  margin-top: -50px;
+}
 
 .skills-container,.tools-container{
   display: grid;
