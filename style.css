@@ -284,18 +284,20 @@ span{
   font-size: 5rem;
 }
 
-#skills h2{
+#skills h2,#tools h2{
   margin-bottom: 5rem;
 }
 
-.skills-container{
+.skills-container,.tools-container{
   display: grid;
   grid-template-columns: repeat(5,1fr);
   gap: 2rem;
  
 }
 
-.skills-container .skills-card{
+
+.skills-container .skills-card,
+.tools-container .tools-card{
   /* flex: 1 1 20rem; */
   border: 1px solid blue;
   background: var(--second-bg-color);
@@ -304,6 +306,7 @@ span{
   text-align: center;
   border: .2rem solid var(--bg-color);
   transition: .5s ease;
+ 
 }
 
 .skills-container .djnago{
@@ -312,16 +315,19 @@ span{
   align-items: center;
   justify-content: center;
 }
-.skills-container .skills-card:hover{
+.skills-container .skills-card:hover,
+.tools-container .tools-card:hover{
   border-color: var(--main-color);
   transform: scale(1.02);
 }
 
-.skills-card-img{
+.skills-card-img,
+.tools-card-img{
   width: 40%;
 }
 
-.skills-card-name{
+.skills-card-name,
+.tools-card-name{
   font-size: 2.6rem;
 }
 
