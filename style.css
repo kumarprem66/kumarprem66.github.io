@@ -327,6 +327,7 @@ span{
 .skills-card-img,
 .tools-card-img{
   width: 40%;
+  background: var(--second-bg-color);
 }
 
 .skills-card-name,
